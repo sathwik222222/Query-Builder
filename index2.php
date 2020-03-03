@@ -93,8 +93,8 @@
                   <div class="input-group">
                     <select class="form-control" id="database_1" onchange="" <?php echo "disabled";?>>
                       <option disabled selected>Select</option>
-                      <option <?php if($db=='World') echo "selected";?>>World</option>
-                      <option <?php if($db=='UserDB') echo "selected";?>>UserDB</option>1
+                      <option <?php if($db=='Student') echo "selected";?>>Student</option>
+                      <option <?php if($db=='Employee') echo "selected";?>>Employee</option>1
                     </select>
                   </div>
                 </div>
@@ -130,6 +130,10 @@
                 <div class="col-md-1">
                   <label class="form-label"> &nbsp; </label><br>
                   <button class="btn btn-primary" href="#" onclick="generate_join_tables()"> GO </button>
+                </div>
+				<div class="col-md-1">
+                  <label class="form-label"> &nbsp; </label><br>
+                  <button class="btn btn-primary" onclick="document.getElementById('number_of_joins').value='';reset_all_joins();">Reset</button>
                 </div>
               </div>
               <br>

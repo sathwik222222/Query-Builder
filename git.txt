@@ -1,0 +1,6 @@
+git init
+git remote add origin https://github.com/sathwik222222/Query-Builder.git
+git remote -v
+git add .
+git commit -m "03-Mar-2020 Commit"
+git push origin master

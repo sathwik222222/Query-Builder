@@ -6,10 +6,14 @@
 		
 		$query="SHOW TABLES FROM $db";
 		$result=mysqli_query($con,$query);
-		$ans="";
-		while ($row = mysqli_fetch_row($result)) {
-		  $ans=$ans." ".$row[0];
+		if($result==false){
+			echo "Error Occured";
+		}else{
+			$ans="";
+			while ($row = mysqli_fetch_row($result)) {
+			  $ans=$ans." ".$row[0];
+			}
+			echo $ans;
 		}
-		echo $ans;
 	}
  ?>

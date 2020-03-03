@@ -219,8 +219,8 @@
                   <div class="input-group">
                     <select class="form-control" id="database_1" onchange="function f(){getAttributes();resetEveryThing();}f();" required="">
                       <option disabled="" selected="">Select</option>
-                      <option>World</option>
-                      <option>UserDB</option>
+                      <option>Student</option>
+					  <option>Employee</option>
                     </select>
                   </div>
                 </div>
@@ -274,7 +274,7 @@
                 </div>
 				<div class="col-md-1">
                   <label class="form-label"> &nbsp; </label><br>
-                  <button class="btn btn-primary" onclick="reset_all_joins();">Reset</button>
+                  <button class="btn btn-primary" onclick="document.getElementById('number_of_joins').value='';reset_all_joins();">Reset</button>
                 </div>
               </div>
               <br>

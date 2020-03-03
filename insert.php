@@ -52,8 +52,8 @@
 				<div class="input-group">
 					<select class="form-control" id="database_1" onchange="DataBaseSelectOnChange()" required="">
 						<option disabled="" selected="">Select</option>
-						<option>World</option>
-						<option>UserDB</option>
+						<option>Student</option>
+						<option>Employee</option>
 					</select>
 				</div>
 			</div>

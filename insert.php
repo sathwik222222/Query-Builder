@@ -34,9 +34,9 @@
         <ul class="navbar-nav ml-auto">
 		
           <li class="nav-item"> <a class="nav-link" href="index.php">Select</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="insert.php">Insert</a> </li>
           <li class="nav-item"> <a class="nav-link" href="update.php">Update</a> </li>
           <li class="nav-item"> <a class="nav-link" href="delete.php">Delete</a> </li>
+		  <li class="nav-item"> <a class="nav-link" href="insert.php"  style="font-size:18px;">Insert</a> </li>
           
         </ul>
 		
@@ -119,13 +119,13 @@
 				
 					function DataBaseSelectOnChange(){
 						document.getElementById("insert_type_value").checked=false;
-						document.getElementById("insert_type_select").checked=false;
+						//document.getElementById("insert_type_select").checked=false;
 						document.getElementById("div_insert").innerHTML="";
 						getAttributes();
 					}
 					function TableSelectOnChange(){
 						document.getElementById("insert_type_value").checked=false;
-						document.getElementById("insert_type_select").checked=false;
+						//document.getElementById("insert_type_select").checked=false;
 						document.getElementById("div_insert").innerHTML="";
 					}
 					

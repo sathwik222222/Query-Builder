@@ -116,10 +116,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbar5">
 		<ul class="navbar-nav ml-auto">
+          
           <li class="nav-item"> <a class="nav-link" href="index.php">Select</a> </li>
-          <!--<li class="nav-item"> <a class="nav-link" href="insert.php">Insert</a> </li>-->
-          <li class="nav-item"> <a class="nav-link" href="update.php">Update</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="update.php" style="font-size:18px;">Update</a> </li>
           <li class="nav-item"> <a class="nav-link" href="delete.php">Delete</a> </li>
+		  <li class="nav-item"> <a class="nav-link" href="insert.php">Insert</a> </li>
         </ul>
       </div>
     </div>
@@ -191,7 +192,15 @@
                 </div>
               </div>
 			  <br>
-			  <p style="font-weight:bold;">SET</p>
+			  <br>
+			  <div class="row">
+				<div class="col-md-2">
+					<p style="font-weight:bold;">SET</p>
+				</div>
+				<div class="col-d-2">
+					<button class="btn btn-primary" onclick="document.getElementById('set_preview_textarea').innerHTML='';">Reset</button>
+				</div>
+			  </div>
 			  
 			  
 			  

@@ -24,10 +24,11 @@
       <div class="collapse navbar-collapse" id="navbar5">
 		
         <ul class="navbar-nav ml-auto">
+          
           <li class="nav-item"> <a class="nav-link" href="index.php">Select</a> </li>
-          <!--<li class="nav-item"> <a class="nav-link" href="insert.php">Insert</a> </li>-->
           <li class="nav-item"> <a class="nav-link" href="update.php">Update</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="delete.php">Delete</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="delete.php"  style="font-size:18px;">Delete</a> </li>
+		  <li class="nav-item"> <a class="nav-link" href="insert.php">Insert</a> </li>
         </ul>
 		
 		<!--
@@ -315,6 +316,8 @@
 			if(where_preview.length>0){
 				where_preview=func(where_preview);
 				query =query+" WHERE "+where_preview;
+			}else{
+				query =query+" WHERE TRUE";
 			}
 			
 			if(top_limit.length!=0){

@@ -501,6 +501,7 @@
 	
 	
   </div>
+  <input type="text" id="hidden_attributes" hidden>
 </body>
 
 </html>

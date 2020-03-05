@@ -60,7 +60,7 @@
 		
 		if($s[0]=="CREATE"){
 			if($result==FALSE){
-				echo "Check whether the table is created";
+				echo "Check whether the table is created / Duplicate Columns ";
 			}else{
 				echo "Successfully Created";
 			}

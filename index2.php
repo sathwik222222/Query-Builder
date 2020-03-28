@@ -69,7 +69,7 @@
 		
 	}
   </script>
-<body>
+<body  style="font-weight: bold;">
   <div class="py-2">
     <div class="container">
       <div class="row">

@@ -106,7 +106,7 @@
 	}
   </script>
 
-<body>
+<body  style="font-weight: bold;">
 	
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
